@@ -1,0 +1,83 @@
+@media screen and (max-width: 1024px) {
+
+    /* Ẩn phần thông tin và chỉ hiển thị icon */
+    #menu-colm .info {
+        display: none;
+    }
+
+    #menu-colm .sidebar-list li a,
+    #sidebar .logout li a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #menu-colm .sidebar-list li a i,
+    #sidebar .logout a {
+        margin-right: 0;
+    }
+
+    #menu-colm .sidebar-list li a span.text,
+    .logout span {
+        display: none;
+    }
+
+    .trangchu {
+        max-height: 720px;
+        overflow: auto;
+    }
+
+    .trangchu p {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    #sidebar{
+        max-width: 50px;
+    }
+     .text-list__item{
+        position: absolute;
+        top: 0;
+        left: 48px;
+        width: 250px;
+        z-index: 99999;
+     }
+}
+
+@media screen and (max-width: 1024px) {
+    .syll .nav ul {
+        height: auto;
+    }
+
+    .tths div p {
+        width: auto;
+
+    }
+
+    @media screen and (max-width:940px) {
+
+        .syll {
+            width: auto;
+        }
+
+        .tths {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+        }
+
+        .main-menu ul {
+            width: 100%;
+        }
+        .list-main{
+            overflow:auto;
+        }
+
+
+
+        /* .qhgd-items{
+            display: grid; 
+            grid-template-columns: 1fr;
+        } */
+    }
+}

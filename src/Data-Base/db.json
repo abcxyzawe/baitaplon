@@ -1,0 +1,1196 @@
+{
+  "maindata": {
+    "classroom": [
+      {
+        "name": "Công Nghệ Thông Tin",
+        "monday": [
+          {
+            "tenmonhoc": "Lập Trình C",
+            "class": [
+              "DCCNTT 14.C.1",
+              "DCCNTT 14.C.2",
+              "DCCNTT 14.C.3"
+            ]
+          }
+        ],
+        "id": "cntt"
+      },
+      {
+        "name": "Quản trị kinh doanh",
+        "monday": [
+          {
+            "tenmonhoc": "Kinh Tế",
+            "class": [
+              "DCQTKD 14.C.3",
+              "DCQTKD 14.C.1",
+              "DCQTKD 14.C.2"
+            ]
+          }
+        ],
+        "id": "qtkd"
+      },
+      {
+        "name": "Cơ Khí",
+        "monday": [
+          {
+            "tenmonhoc": "Hình Học",
+            "class": [
+              "DCCK 14.C.1",
+              "DCCK 14.C.2",
+              "DCCK 14.C.3"
+            ]
+          }
+        ],
+        "id": "ck"
+      },
+      {
+        "name": "Marketing Digital",
+        "monday": [
+          {
+            "tenmonhoc": "Kĩ Năng Mềm",
+            "class": [
+              "DCMKT 14.C.1",
+              "DCMKT 14.C.2",
+              "DCMKT 14.C.3"
+            ]
+          }
+        ],
+        "id": "md"
+      }
+    ]
+  },
+  "userdata": [
+    {
+      "class": "DCCNTT 14.C.1",
+      "id": "DCCNTT14.C.1",
+      "studient": [
+        {
+          "name": "Tran Trung Duc",
+          "points": [
+            "10",
+            "10",
+            "10"
+          ],
+          "status": [
+            40,
+            3
+          ],
+          "id": 20230001,
+          "class": "DCCNTT 14.C.1"
+        },
+        {
+          "name": "Do Quoc Anh",
+          "points": [
+            9,
+            1,
+            9
+          ],
+          "status": [
+            40,
+            3
+          ],
+          "id": 20230002,
+          "class": "DCCNTT 14.C.1"
+        },
+        {
+          "name": "Dao Viet Quang Huy",
+          "points": [
+            "1",
+            "1",
+            "1"
+          ],
+          "status": [
+            40,
+            3
+          ],
+          "id": 20230003,
+          "class": "DCCNTT 14.C.1"
+        },
+        {
+          "name": "Nguyen Van Viet",
+          "points": [
+            "1",
+            "2",
+            "3"
+          ],
+          "status": [
+            40,
+            3
+          ],
+          "id": 20230004,
+          "class": "DCCNTT 14.C.1"
+        },
+        {
+          "name": "Phung Ha Anh",
+          "points": [
+            9,
+            7,
+            9
+          ],
+          "status": [
+            40,
+            3
+          ],
+          "id": 20230005,
+          "class": "DCCNTT 14.C.1"
+        }
+      ]
+    },
+    {
+      "class": "DCCNTT 14.C.2",
+      "id": "DCCNTT14.C.2",
+      "studient": [
+        {
+          "name": "Tran Minh Duc",
+          "points": [
+            9,
+            9,
+            9
+          ],
+          "status": [
+            40,
+            3
+          ],
+          "id": 20230011,
+          "class": "DCCNTT 14.C.2"
+        },
+        {
+          "name": "Do Van Anh",
+          "points": [
+            9,
+            8,
+            9
+          ],
+          "status": [
+            40,
+            3
+          ],
+          "id": 20230012,
+          "class": "DCCNTT 14.C.2"
+        },
+        {
+          "name": "Nguyen Thanh Nam",
+          "points": [
+            7,
+            10,
+            9
+          ],
+          "status": [
+            40,
+            3
+          ],
+          "id": 20230013,
+          "class": "DCCNTT 14.C.2"
+        },
+        {
+          "name": "Mai Viet Huy",
+          "points": [
+            9,
+            10,
+            8
+          ],
+          "status": [
+            40,
+            3
+          ],
+          "id": 20230014,
+          "class": "DCCNTT 14.C.2"
+        },
+        {
+          "name": "Nguyen Viet Tu",
+          "points": [
+            9,
+            9,
+            8
+          ],
+          "status": [
+            40,
+            3
+          ],
+          "id": 20230015,
+          "class": "DCCNTT 14.C.2"
+        }
+      ]
+    },
+    {
+      "class": "DCCNTT 14.C.3",
+      "id": "DCCNTT14.C.3",
+      "studient": [
+        {
+          "name": "Tran Minh Tam",
+          "points": [
+            "9",
+            "9",
+            "9"
+          ],
+          "status": [
+            40,
+            3
+          ],
+          "id": 20230021,
+          "class": "DCCNTT 14.C.3"
+        },
+        {
+          "name": "Nguyen Van Anh",
+          "points": [
+            9,
+            8,
+            9
+          ],
+          "status": [
+            40,
+            3
+          ],
+          "id": 20230022,
+          "class": "DCCNTT 14.C.3"
+        },
+        {
+          "name": "Nguyen Tue Minh",
+          "points": [
+            7,
+            10,
+            9
+          ],
+          "status": [
+            40,
+            3
+          ],
+          "id": 20230023,
+          "class": "DCCNTT 14.C.3"
+        },
+        {
+          "name": "Tran Xuan Tuyet",
+          "points": [
+            9,
+            10,
+            8
+          ],
+          "status": [
+            40,
+            3
+          ],
+          "id": 20230024,
+          "class": "DCCNTT 14.C.3"
+        },
+        {
+          "name": "Nguyen Thi Kieu Anh",
+          "points": [
+            9,
+            9,
+            8
+          ],
+          "status": [
+            40,
+            3
+          ],
+          "id": 20230025,
+          "class": "DCCNTT 14.C.3"
+        }
+      ]
+    },
+    {
+      "class": "DCQTKD 14.C.3",
+      "id": "DCQTKD14.C.3",
+      "studient": [
+        {
+          "name": "Tran Trung Quan",
+          "points": [
+            8,
+            9,
+            9
+          ],
+          "status": [
+            40,
+            3
+          ],
+          "id": 20230031,
+          "class": "DCQTKD 14.C.3"
+        },
+        {
+          "name": "Nguyen Quang Huy",
+          "points": [
+            9,
+            9,
+            9
+          ],
+          "status": [
+            40,
+            3
+          ],
+          "id": 20230032,
+          "class": "DCQTKD 14.C.3"
+        },
+        {
+          "name": "Dao Duy Tien",
+          "points": [
+            9,
+            10,
+            9
+          ],
+          "status": [
+            40,
+            3
+          ],
+          "id": 20230033,
+          "class": "DCQTKD 14.C.3"
+        },
+        {
+          "name": "Nguyen Manh Tung",
+          "points": [
+            8,
+            9,
+            9
+          ],
+          "status": [
+            40,
+            3
+          ],
+          "id": 20230034,
+          "class": "DCQTKD 14.C.3"
+        },
+        {
+          "name": "Phung Quoc Viet",
+          "points": [
+            9,
+            7,
+            9
+          ],
+          "status": [
+            40,
+            3
+          ],
+          "id": 20230035,
+          "class": "DCQTKD 14.C.3"
+        }
+      ]
+    },
+    {
+      "class": "DCQTKD 14.C.2",
+      "id": "DCQTKD14.C.2",
+      "studient": [
+        {
+          "name": "Nguyen Manh Duy",
+          "points": [
+            8,
+            10,
+            9
+          ],
+          "status": [
+            40,
+            3
+          ],
+          "id": 20230036,
+          "class": "DCQTKD 14.C.2"
+        },
+        {
+          "name": "Tran Quang HUy",
+          "points": [
+            9,
+            8,
+            9
+          ],
+          "status": [
+            40,
+            3
+          ],
+          "id": 20230037,
+          "class": "DCQTKD 14.C.2"
+        },
+        {
+          "name": "Truong Dinh Hoang",
+          "points": [
+            7,
+            10,
+            9
+          ],
+          "status": [
+            40,
+            3
+          ],
+          "id": 20230038,
+          "class": "DCQTKD 14.C.2"
+        },
+        {
+          "name": "Mai Viet Huy",
+          "points": [
+            9,
+            10,
+            8
+          ],
+          "status": [
+            40,
+            3
+          ],
+          "id": 20230039,
+          "class": "DCQTKD 14.C.2"
+        },
+        {
+          "name": "Nguyen Quoc Khanh",
+          "points": [
+            9,
+            9,
+            8
+          ],
+          "status": [
+            40,
+            3
+          ],
+          "id": 20230040,
+          "class": "DCQTKD 14.C.2"
+        }
+      ]
+    },
+    {
+      "class": "DCQTKD 14.C.1",
+      "id": "DCQTKD14.C.1",
+      "studient": [
+        {
+          "name": "Tran Minh Tien",
+          "points": [
+            9,
+            9,
+            9
+          ],
+          "status": [
+            40,
+            3
+          ],
+          "id": 20230041,
+          "class": "DCQTKD 14.C.1"
+        },
+        {
+          "name": "Nguyen Quoc Anh",
+          "points": [
+            9,
+            8,
+            9
+          ],
+          "status": [
+            40,
+            3
+          ],
+          "id": 20230042,
+          "class": "DCQTKD 14.C.1"
+        },
+        {
+          "name": "Do Duy Canh",
+          "points": [
+            7,
+            10,
+            9
+          ],
+          "status": [
+            40,
+            3
+          ],
+          "id": 20230043,
+          "class": "DCQTKD 14.C.1"
+        },
+        {
+          "name": "Cong Thai Hoc",
+          "points": [
+            9,
+            10,
+            8
+          ],
+          "status": [
+            40,
+            3
+          ],
+          "id": 20230044,
+          "class": "DCQTKD 14.C.1"
+        },
+        {
+          "name": "Vu Van Truong",
+          "points": [
+            9,
+            9,
+            8
+          ],
+          "status": [
+            40,
+            3
+          ],
+          "id": 20230045,
+          "class": "DCQTKD 14.C.1"
+        }
+      ]
+    },
+    {
+      "class": "DCCK 14.C.1",
+      "id": "DCCK14.C.1",
+      "studient": [
+        {
+          "name": "Bui Huy Hung",
+          "points": [
+            8,
+            9,
+            9
+          ],
+          "status": [
+            40,
+            3
+          ],
+          "id": 20230046,
+          "class": "DCCK 14.C.1"
+        },
+        {
+          "name": "Nguyen Tran Anh Quan",
+          "points": [
+            9,
+            9,
+            9
+          ],
+          "status": [
+            40,
+            3
+          ],
+          "id": 20230047,
+          "class": "DCCK 14.C.1"
+        },
+        {
+          "name": "Dao Duy Hoan",
+          "points": [
+            9,
+            10,
+            9
+          ],
+          "status": [
+            40,
+            3
+          ],
+          "id": 20230048,
+          "class": "DCCK 14.C.1"
+        },
+        {
+          "name": "Ha Manh Tung",
+          "points": [
+            8,
+            9,
+            9
+          ],
+          "status": [
+            40,
+            3
+          ],
+          "id": 20230049,
+          "class": "DCCK 14.C.1"
+        },
+        {
+          "name": "Phung Quang Khai",
+          "points": [
+            9,
+            7,
+            9
+          ],
+          "status": [
+            40,
+            3
+          ],
+          "id": 20230050,
+          "class": "DCCK 14.C.1"
+        }
+      ]
+    },
+    {
+      "class": "DCCK 14.C.2",
+      "id": "DCCK14.C.2",
+      "studient": [
+        {
+          "name": "Nguyen Manh Duy",
+          "points": [
+            8,
+            10,
+            9
+          ],
+          "status": [
+            40,
+            3
+          ],
+          "id": 20230051,
+          "class": "DCCK 14.C.2"
+        },
+        {
+          "name": "Tran Ba Hoang",
+          "points": [
+            9,
+            8,
+            9
+          ],
+          "status": [
+            40,
+            3
+          ],
+          "id": 20230052,
+          "class": "DCCK 14.C.2"
+        },
+        {
+          "name": "Nguyen Dinh Hoang",
+          "points": [
+            7,
+            10,
+            9
+          ],
+          "status": [
+            40,
+            3
+          ],
+          "id": 20230053,
+          "class": "DCCK 14.C.2"
+        },
+        {
+          "name": "Leu Huu Thien",
+          "points": [
+            9,
+            10,
+            8
+          ],
+          "status": [
+            40,
+            3
+          ],
+          "id": 20230054,
+          "class": "DCCK 14.C.2"
+        },
+        {
+          "name": "Nguyen Quoc Khanh",
+          "points": [
+            9,
+            9,
+            8
+          ],
+          "status": [
+            40,
+            3
+          ],
+          "id": 20230055,
+          "class": "DCCK 14.C.2"
+        }
+      ]
+    },
+    {
+      "class": "DCCK 14.C.3",
+      "id": "DCCK14.C.3",
+      "studient": [
+        {
+          "name": "Le Minh Dai",
+          "points": [
+            9,
+            9,
+            9
+          ],
+          "status": [
+            40,
+            3
+          ],
+          "id": 20230056,
+          "class": "DCCK 14.C.3"
+        },
+        {
+          "name": "Nguyen Quoc Anh",
+          "points": [
+            9,
+            8,
+            9
+          ],
+          "status": [
+            40,
+            3
+          ],
+          "id": 20230057,
+          "class": "DCCK 14.C.3"
+        },
+        {
+          "name": "Do Duy Canh",
+          "points": [
+            7,
+            10,
+            9
+          ],
+          "status": [
+            40,
+            3
+          ],
+          "id": 20230058,
+          "class": "DCCK 14.C.3"
+        },
+        {
+          "name": "Vu Van Xuyen",
+          "points": [
+            9,
+            10,
+            8
+          ],
+          "status": [
+            40,
+            3
+          ],
+          "id": 20230059,
+          "class": "DCCK 14.C.3"
+        },
+        {
+          "name": "Cao Tung Anh",
+          "points": [
+            9,
+            9,
+            8
+          ],
+          "status": [
+            40,
+            3
+          ],
+          "id": 20230060,
+          "class": "DCCK 14.C.3"
+        }
+      ]
+    },
+    {
+      "class": "DCMKT 14.C.1",
+      "id": "DCMKT14.C.1",
+      "studient": [
+        {
+          "name": "Truong Tue Anh",
+          "points": [
+            8,
+            9,
+            9
+          ],
+          "status": [
+            40,
+            3
+          ],
+          "id": 20230061,
+          "class": "DCMKT 14.C.1"
+        },
+        {
+          "name": "Nguyen Anh Quan",
+          "points": [
+            9,
+            9,
+            9
+          ],
+          "status": [
+            40,
+            3
+          ],
+          "id": 20230062,
+          "class": "DCMKT 14.C.1"
+        },
+        {
+          "name": "Le Thi Nhi",
+          "points": [
+            9,
+            10,
+            9
+          ],
+          "status": [
+            40,
+            3
+          ],
+          "id": 20230063,
+          "class": "DCMKT 14.C.1"
+        },
+        {
+          "name": "Ha Manh Tung",
+          "points": [
+            8,
+            9,
+            9
+          ],
+          "status": [
+            40,
+            3
+          ],
+          "id": 20230064,
+          "class": "DCMKT 14.C.1"
+        },
+        {
+          "name": "Bui Hai Yen",
+          "points": [
+            9,
+            7,
+            9
+          ],
+          "status": [
+            40,
+            3
+          ],
+          "id": 20230065,
+          "class": "DCMKT 14.C.1"
+        }
+      ]
+    },
+    {
+      "class": "DCMKT 14.C.2",
+      "id": "DCMKT14.C.2",
+      "studient": [
+        {
+          "name": "Do Thi Ngoc",
+          "points": [
+            8,
+            10,
+            9
+          ],
+          "status": [
+            40,
+            3
+          ],
+          "id": 20230066,
+          "class": "DCMKT 14.C.2"
+        },
+        {
+          "name": "Nguyen Thu Trang",
+          "points": [
+            9,
+            8,
+            9
+          ],
+          "status": [
+            40,
+            3
+          ],
+          "id": 20230067,
+          "class": "DCMKT 14.C.2"
+        },
+        {
+          "name": "Nguyen Thuy Van",
+          "points": [
+            7,
+            10,
+            9
+          ],
+          "status": [
+            40,
+            3
+          ],
+          "id": 20230068,
+          "class": "DCMKT 14.C.2"
+        },
+        {
+          "name": "Tran Huu Thien",
+          "points": [
+            9,
+            10,
+            8
+          ],
+          "status": [
+            40,
+            3
+          ],
+          "id": 20230069,
+          "class": "DCMKT 14.C.2"
+        },
+        {
+          "name": "Luong Han Hai",
+          "points": [
+            9,
+            9,
+            8
+          ],
+          "status": [
+            40,
+            3
+          ],
+          "id": 20230070,
+          "class": "DCMKT 14.C.2"
+        }
+      ]
+    },
+    {
+      "class": "DCMKT 14.C.3",
+      "id": "DCMKT14.C.3",
+      "studient": [
+        {
+          "name": "Dang Thuy Tram",
+          "points": [
+            9,
+            9,
+            9
+          ],
+          "status": [
+            40,
+            3
+          ],
+          "id": 20230071,
+          "class": "DCMKT 14.C.3"
+        },
+        {
+          "name": "Nguyen Van Viet",
+          "points": [
+            "1",
+            "1",
+            "1"
+          ],
+          "status": [
+            40,
+            3
+          ],
+          "id": 20230072,
+          "class": "DCMKT 14.C.3"
+        },
+        {
+          "name": "Tran Kim Minh",
+          "points": [
+            7,
+            10,
+            9
+          ],
+          "status": [
+            40,
+            3
+          ],
+          "id": 20230073,
+          "class": "DCMKT 14.C.3"
+        },
+        {
+          "name": "Vu Thuy Anh",
+          "points": [
+            9,
+            10,
+            8
+          ],
+          "status": [
+            40,
+            3
+          ],
+          "id": 20230074,
+          "class": "DCMKT 14.C.3"
+        },
+        {
+          "name": "Cao The Anh",
+          "points": [
+            9,
+            9,
+            8
+          ],
+          "status": [
+            40,
+            3
+          ],
+          "id": 20230075,
+          "class": "DCMKT 14.C.3"
+        }
+      ]
+    }
+  ],
+  "mainmenu": {
+    "item": {
+      "menu": "mt"
+    },
+    "menu": "sinhvien"
+  },
+  "schedule": [
+    {
+      "id": "6e37",
+      "data": [
+        {
+          "name": "20230001",
+          "id": "Tran Trung Duc",
+          "status": "Đi Học"
+        },
+        {
+          "name": "20230002",
+          "id": "Do Quoc Anh",
+          "status": "Đi Học"
+        },
+        {
+          "name": "20230003",
+          "id": "Dao Viet Quang Huy",
+          "status": "Đi Học"
+        },
+        {
+          "name": "20230004",
+          "id": "Nguyen Van Viet",
+          "status": "Đi Học"
+        },
+        {
+          "name": "20230005",
+          "id": "Phung Ha Anh",
+          "status": "Đi Học"
+        }
+      ],
+      "form": "3",
+      "to": "6",
+      "class": "DCCNTT 14.C.1",
+      "time": "19/1/2024 - 20:11:25"
+    },
+    {
+      "id": "e2b6",
+      "data": [
+        {
+          "name": "20230036",
+          "id": "Nguyen Manh Duy",
+          "status": "Nghỉ Học"
+        },
+        {
+          "name": "20230037",
+          "id": "Tran Quang HUy",
+          "status": "Nghỉ Học"
+        },
+        {
+          "name": "20230038",
+          "id": "Truong Dinh Hoang",
+          "status": "Đi Học"
+        },
+        {
+          "name": "20230039",
+          "id": "Mai Viet Huy",
+          "status": "Đi Học"
+        },
+        {
+          "name": "20230040",
+          "id": "Nguyen Quoc Khanh",
+          "status": "Đi Học"
+        }
+      ],
+      "form": "1",
+      "to": "3",
+      "class": "DCQTKD 14.C.2",
+      "time": "19/1/2024 - 22:02:19"
+    },
+    {
+      "id": "c391",
+      "data": [
+        {
+          "name": "20230001",
+          "id": "Tran Trung Duc",
+          "status": "Đi Học"
+        },
+        {
+          "name": "20230002",
+          "id": "Do Quoc Anh",
+          "status": "Nghỉ Học"
+        },
+        {
+          "name": "20230003",
+          "id": "Dao Viet Quang Huy",
+          "status": "Nghỉ Học"
+        },
+        {
+          "name": "20230004",
+          "id": "Nguyen Van Viet",
+          "status": "Đi Học"
+        },
+        {
+          "name": "20230005",
+          "id": "Phung Ha Anh",
+          "status": "Đi Học"
+        }
+      ],
+      "form": "1",
+      "to": "3",
+      "class": "DCCNTT 14.C.1",
+      "time": "20/1/2024 - 15:55:22"
+    },
+    {
+      "id": "eb8e",
+      "data": [
+        {
+          "name": "20230001",
+          "id": "Tran Trung Duc",
+          "status": "Đi Muộn"
+        },
+        {
+          "name": "20230002",
+          "id": "Do Quoc Anh",
+          "status": "Đi Muộn"
+        },
+        {
+          "name": "20230003",
+          "id": "Dao Viet Quang Huy",
+          "status": "Đi Muộn"
+        },
+        {
+          "name": "20230004",
+          "id": "Nguyen Van Viet",
+          "status": "Đi Muộn"
+        },
+        {
+          "name": "20230005",
+          "id": "Phung Ha Anh",
+          "status": "Đi Học"
+        }
+      ],
+      "form": "1",
+      "to": "3",
+      "class": "DCCNTT 14.C.1",
+      "time": "24/1/2024 - 16:49:06"
+    }
+  ],
+  "schedule2": [
+    {
+      "tiet": "T3-T6",
+      "time": "Thu 2",
+      "endtime": "19/1/2024 - 19/2/2024",
+      "class": "DCCNTT 14.C.2",
+      "monday": "Thiết Kế Web",
+      "id": "9595"
+    },
+    {
+      "tiet": "T9-T12",
+      "time": "Thu 2",
+      "endtime": "19/1/2024 - 19/2/2024",
+      "class": "DCCNTT 14.C.1",
+      "monday": "Thiết Kế Web",
+      "id": "95f2"
+    },
+    {
+      "tiet": "T6-T9",
+      "time": "Thu 2",
+      "endtime": "19/1/2024 - 19/2/2024",
+      "class": "DCCNTT 14.C.3",
+      "monday": "Thiết Kế Web",
+      "id": "c531"
+    },
+    {
+      "tiet": "T1-T3",
+      "time": "Thu 3",
+      "endtime": "19/1/2024 - 19/2/2024",
+      "class": "DCCNTT 14.C.4",
+      "monday": "Thiết Kế Web",
+      "id": "df0a"
+    },
+    {
+      "tiet": "T3-T6",
+      "time": "Thu 3",
+      "endtime": "19/1/2024 - 19/2/2024",
+      "class": "DCCK 14.C.1",
+      "monday": "Hình Học",
+      "id": "c078"
+    },
+    {
+      "tiet": "T6-T9",
+      "time": "Thu 3",
+      "endtime": "19/1/2024 - 19/2/2024",
+      "class": "DCCK 14.C.2",
+      "monday": "Hình Học",
+      "id": "93c0"
+    },
+    {
+      "tiet": "T6-T9",
+      "time": "Thu 3",
+      "endtime": "19/1/2024 - 19/2/2024",
+      "class": "DCCK 14.C.3",
+      "monday": "Hình Học",
+      "id": "ce90"
+    }
+  ],
+  "documents": [
+    {
+      "id": "b49d",
+      "title": "a",
+      "content": "v",
+      "nganh": "Lập Trình C",
+      "basefile": "data:application/octet-stream;base64,UmFyIRoHAQDz4YLrCwEFBwAGAQGAgIAAIuS3GCgCAwv5BgTXFiA3233XgAMADHNyYy9pbmRleC5qcwoDAnZQxsfLotkByeV1AzBUNDMz9FBV96Bfh1X4xMV3XLZ5VwSCyyMCW0WSWOMXwookTS1tqRNaqlqrjrD/4rjmb0prpclnnL8OvBJadzCc06d6PniTh7t3nMAIGEAn5N00Mh2i9sUZZJGt5qMv6lfHpuwxlYs+n0LAciiRfsbN6Wa4HuOiaTbSXQSJLIGHfAP994DPZuZwNCx0C6WvsiU2oHpw0Wo4CwhyPFebzoRJxYR/XGsLkAvWtFnYFeuQRFGPX6cYJb5zSh2SW79ONWLcqWNpROe4goHx92k26RjmlwQPuoNLlcQFgAGDaRQSRn/709LwOQuZCgDWPWVqZLnxFPpUOJtEG1CHCyInvtZxetI8ShzQFJAbEA3L9ExxLbUHlDwkaIfEm5rrRPXeQe8RjCV09fpmdihiQ0Z9LubY8mZCQP3RlzjOeIFSO6gYXLeVfN6me5/uXBeM72BMUC+UUO7swNd8s7UCkW23Zzv5U1SQly0TDa5LrUdxn2ljnh0gLu0UQS3xlgiAm2y7111XXn9gKTcKlOhFEFLArsUcfHxGVoa2d7frcpeHWHawmlheIzLGVjngRkEhxz856jm2tN43JGsBSj8UaDv7WnNFJ8ZBT65iU+mf1SBP4RdHzDDpsM8GMeWDYOtMkUBifAjDtPOHcEn/zvcvIROrLWbpDEvzuhPqNWFPZmA6x7p8PHmrm3dGGFu75PWlIQe8MsKZHmyxxiyjTLLIPqNW1nZOqZMLGpSoi8pfDHp2lzKvS2rHYckb8OIO3M3nySYrmvDxXrCdo3V9oaKjay8vE6MTRjO40j14kK2F0CN3TwEs64d3G3s5Gf5pOvR+miEWvFopVpq8pRMkr58okSpP+Ch/59ofcZoq+h5G8w7A+EEcfcJo7riFoygQR5Nld7XnZoYsIQcbD2a8KBVRE3GYTl5rvJ4VBzD9Mh6/ca8DIKnP2eEX/aJudCuOkgh0g6hbaOa2lwh0OIHPLDCMjWcPQxS36mc/ZNfGPJ+Nv8krJQqC19Dh7B65Ahblu3wCADbiGUtz+e7s4Pjey8Wb39nFudF37fAO6VCij2ySe3tLKRhggHjq6ulpqfCE+d4W+FXhCA90GiMhe5ridQlqqH5C5b8cCuvVVA0Ws7OgpnaclObpjKxfLGAHoskPjEvKnLxTl91Tb7gNGTst4HA/eqfuksy5GUw/gLUrLLY0AgML7gEElgUglfFQ5oADABhzcmMvTW9kZWxzL1VzZXJTY2hlbWEuanMKAwKDCYFQbaLZAcBx6yBkM0L2YFT2UHg9L5boI8AUfFEEURfBHgFXY/gLbF22ioj3lUyg6uib4OvDrQtLkyZJKZySSEmZk/P3h9wD77h+s2uehht2mbiRfROXGG8cSJ9hplvWrI36I0j3Po17iYqJTS5fJNz0LJ1BNjHNdRHtFGn9OBADNBmoTdukNRQCC+eBeXtRGzKYVSjaATvFN80xd/bFLd9o+Q9VXgq1ZQNqfB1SkYDNZKb+tixt2H/GHU4ExAGC3+BKfpTlU5+dqwk1P12EX4VbXWjldC+Ou0sWYYcwEK4XPgc73BnPtm0YJLkTFq6bdJqpbwBytNCUNAIDC94EBKwMIFR2N9qAAwAYc3JjL1B1YmxpYy9jc3Mvc3R5bGUuY3NzCgMCZDZ/UW+i2QHJy1oCMGRDMzP0YFT3oF4ORKKK4w02nGJLA543gd8LwIskpIiFIoFFxt2i95ckwlfkr8ScSSYSL38Zm4d0rkBzdwnd07+fvLM8MAwD7h7S8FIJ/vr9CO64LYdDN5NtPMlS1JOT7GMbywPIjBuotNSBHbtNr+crJU0BtHb/6SnP1JYGHIBrZnDUcf3tY1nUQA9F8WhxInmg7nP/H4d2UsYDrUroup2QamxVJ/rjrbr70T5Dh7MeXe/zY8hCGsvUSm85WAxQd6JCTv9yTxf35fFsEIc+VJ17swlm1X6j3FkMjw7oK1ajmEfKBuV1bGQE+BjIE5qyATxgACC109DkFw1o7txDYWhaKhNsnDvjTSI+Yr7U1kf1OgU9KE6ZiAdEEMKs0Tl5xWWk8I4wuu26jmDCSHaFt16xD9GdbOS2+7rccuD+gp84noE5bjdf0ZSaQ0FcGboF6n99sL0AUyzNfb2FrbhLFibL9AOyKXyDiYL+CmiF1fbfA0WEdemg1FYGDXFuClrNu4CGROszE1EPTWrFpN2bjY/oUGqkcJBAAIs3nlSl4cw4u5D+fr3b1fhyVvM4812OsR8VPN+/ggZN4MWNmm7XpIE2ko+DIgqJMWoYChif0KDYsqNREtJyFC/geQ+GA4w+poFGBKiEsHPeGdUw4tC1YVDNEAi/C3Tsu05Is48+uuXClldABJI3Hsbysx34LVDuH5eROfsuDNQkGmSr5bZg49O/bNJJRX8PiqIJnooZbVpgRR+mD4jSFnA+F3nZ+xQaCfx1J7NQkO9RVewmS0VdOoiu4ja+7vr+H4AYL4kYMQIDC+cIBI0cII/My8iAAwAVc3JjL1B1YmxpYy9pbmRleC5odG1sCgMC9VdOOGuj2QHP8mMEMGUzM0NPNgVe/QN8HVe0DHAJG8u7tA0XZIBm5mblyi/kXMo0aKKBHGlMbuONStKZLBgnvFmZeJJyNNxt2Tw9iBtoonhPCi0jPHSSiTw/tc590Hr+6Dzw6/5Ob3cvX//v5yRJyyYf1/S+vySSCXswOGlcYhNAXwpFdX8pkwEhigmQZIUvj1/7e/pynlywDwMjujNozHmS4Fs8qQA8LojKmLAUwyoTXmYLpI5Y0xwSXkQjsGbzPcdAWEyQhw80CIsZw7C3350GzNkDR2kmNIBZCdITBVMZTqiCHJ93nn/fnxhThfhQh9me8r1YSX9hKvgVLpodUGPXBBRQ1ZwVQUXmY/HmKYh3MH8CDD8V54BduJtTS1K80kmqodi0QG4+b7uDvIHP0rLcW8rHtE2N9WgPidQinuH7fV/1A6JB731c6OBgEuQ82WBUrN9Y/SPa0jpSJuaa1OnPYBrWqNio3rS+vVrbhDxNHmS2uiqpCRBx4e0w8YCSm0E/42PqZjdxaEeh9/y98gxMKT0RwuasVwN24BCP8pVEHwN9c5kLCHYy3B4wk76hOndDyFLzvq6vd7R6gvRy9keTS737sqfYCA3oI4oYcu1mb0lGWHNUT6rlxpBqpRDJnlhWTw+RMg/Ii61SXdKCiC5uRLOVFyx/gmSomlEb58o+03lF6bSDYMgBZ5neL9mvj0i578Vz+64MN9ox3UaPgfQhQf5JpoNLwgB8rtDnqDfJJIB5MwDgH6RGX0++T1nFH5MUx8/ZFQNgsrHIJSqMmU/cZXtpnRhZBnUTxJT7IJG0KpIFNZ+qDlKKBEQgHPBDE6oFrNS2i6rPHz8CvmVuSdMqVsT3YZPIkau486TAlLdN6Ms5P2YNz/gQAPmUuqnurw8g+UN9WXOjEDbPZ5bzHU773ZS+JHkI75KotcriN4i40ZLDtdEmqrTDdebIsalmt220tmp1KNdhQB3Emb5Ty8wOeXvaPupz54rQ4bHLM6CkjpyLoArWKCQH6AV2saUXSZ8ynuZmdtpjhELSIsAycvmKSia2/q2tBeKtneX0wC+XH83g+vsnlZygJga11t2Hm1srhIt2n99beo+P8r1/jWzOGS3a/51t0fmjLz62VxBVtYRAzoNvdBRTmRRsWXQ8xQz+LAvgeWpK2ZYM2Yb4xIxuUnY0rrDA9Z0OKbWV17d06cY55DLws279idZ2t5Fdsq3WqH6wK3BI5R6Tenr9nrVBGKwWWcqCkYP5AV1WuoGXMNL5+HKyXDwDfVUHSA14+GD22zvUghdUXDBLKmqQPOh4YB0VSt0a8qLTOkFLTeH6i1KctWZjSKQ0iwNH6EXm/aJJ0rMN2lrVcXbSiC529h8C0HbWNMVlU3Rv+s+V+WKOQrrKs994jrez3yGTDEspO7nAfZlOuPPjm0cuPD7LldFpJYcXisl76I8Y7sWS2fHBfW7a3VpNqo6WNs0tkRpINhMWOY1/QSO0KV0nn4x1skrff23e41PMvGx/Rdn9++VN2o8uAgML3AgEwyAgENp9L4ADABJzcmMvUm91dGVzL1VzZXIuanMKAwI8N5XWyKLZAcjOWAQwZUM0Mz82BV76BPBzV0tKDYlsslvQ2HAKI3aHRXZBXb1UUQLUSnqYWpbV+HGw5vvE1OcOElIpanu64LAIJ4MmNWrVnM/R4cJL8c5hw5h5n4Ofj7mfkYM6c8PinmpqMjs00IppNxmoR/1cg7OuM9Tj3k+5YWieupFCRxiF/+Veh24DTDVnvMQv2S5an/umxWW+/BzznRLTASHoizo0QrGw09s0Ro6x2qkCyb1j5MgeTsh8hswVO0d4szxu4Dxk9SoDYkp5ewfKktuH3wyLdD6C9VLvdzH4QAfUppJRJGZ372KlzGLpcTV/EPHvUx3WwC6JnygV8eGTAh/iHQhiMvLCl/XXiws30VQ1B5CeqivYRc00c4QOqWC8zfD4Gccewhv3hEc+yaWQRvw2LkDNQnBjvpqfC6VSavWUw9d8GhAgNEwrB2auWXIuFFCWDuq1hTXJw54b9doxBw4gKNmu4jigSMqtz/EhUdga3XDKG3/pp4zezN1DGD6Jg7JEUqmt69g0TitXA3jWpugwvpffvH7qErxHboUoIqt9KUpb74Hj23nYuUKF73SBCbKCMfiLO6i/IGldI/GI9pT9EwXVW1Yh+OU8n0M+7UGOFmXPOimbgFgJJnHvqzGT7FxfqunH+lFTrkCe7gDFjh0XFR5WNSG94/U3jIGRLyY2AHe7UxtMfKVsSWqeHfwy5Xn+qmeZ1i4kQQ/iP2DhkPu4F3RZkqX9MNEOgQIohnhFsbi76cvp1z3BfdIZ3FMOTK34xGPA21o2dujEEBrJ0z0po/iVo62PsUSkVdoWMhYn/SdXiuTLLqz8l0zTHJeJ0PFLWS3PW6H3QPyuJ13dMLAyr5YUPZR7mMG3U9LrqyFEHKtOFi6jDWZR4LbKe55UPyz9JR+e32BPx1lKAb3HXuq/6RCt1T9/Luz2bMBwNTbvxoSt/b2SGmvWIPJvmSQ4IIC9Bsc0wU3jBwXfD4+Qn0a9BjC34lvfb3pzU9/83/nz2YUtIq/LeS0++6ONuDeeMN+KCVm+7Jr+3NP4szrRks2o14kRuv4Yo3ZMC/CAXcbYl9rD6tU54Zu3e75TJ55FK65628E/Q77Pk3wqfRr842s/bvw/OY6532l+j5inmzZfeDZe7gmLzh0CN+tM1Ank9DTmxtYB4ac+acSHb4Xrz1Bk/pIIfOp4rAe08nx93uPIEqeCgyeKb7a80skUBbUd/PVolcetJeVpWzDi6esQPM3xgl6/NEn2XcesNvMkJaLD4HGbPXY/B5YPObyr/uC2N/GbLZYLB0e+ejlhGAimSYPfqbZd2rPFXQIomq/qTRf2/7itZjQmpIXkkjjSPNqya6l9pivzE5mtyFpFxbDK0BMMMU27nHOmuY5ZxGrtzngM758o6FFPyyvLxwzJdwLvqDABGxbtKC7d1qW46xE6eR8SlccxEX7fJuY/goy5Fvy4VgsQGHd+YLd4EGSeNFRBR/aJ0kFFiGkT7UX+CsjmAGpF4gsoAgMLngIE1QMg2ik9qYADAAxwYWNrYWdlLmpzb24KAwLDKTI9xKLZAcmIGgE2ZDMzP1UETfOFILRNVijcvixdtF0XddltYDqatatrSdKUksFF7y7Ri8Iw9E4qnoazxOFckRJzCiQCcP3+n/jX5oMY7LL1H7DH+ttjLrVYPKxZ+aJO5ROW1kTKUUDkxQncklhTxJmJeHEuqNbiTrH+EPtHu6Zc0nQOjjogPsJ8VrG/43JbwUPGDJOpNzTeR+4iaQ7B+NEgzsAOv1Wq0Em06TB2sB0n/r9llvhXDeErY5fx85A2bX3Ys1u+VpUx0t/9/h25a0JMKFgm1Z7Z6C0cNWAv4LJNV0o2UD7K0pEh0htiKkdOQtrRYs3TS6kc6KccWrAhOTbdAGqzRV7WezWzq1fXBxRjw8hqSUvba4EZmN84urFFdHdaBwC7WDtvKAIDCwAFABAAAAAAgAAADnNyYy9QdWJsaWMvY3NzCgMC5z1ugG6i2QEcL1x1JAIDCwAFABAAAAAAgAAACnNyYy9Nb2RlbHMKAwLc36f58KHZAWyJKM0kAgMLAAUAEAAAAACAAAAKc3JjL1B1YmxpYwoDAib8HYduotkB+Uyl3SQCAwsABQAQAAAAAIAAAApzcmMvUm91dGVzCgMCb+WscvCh2QHOINsUHQIDCwAFABAAAAAAgAAAA3NyYwoDAqrjjaHHotkB0eeyLzECAwuLAwTCBiDZVcjagAMAFXNyYy9IZWxwZXIvQ29ubmVjdC5qcwoDAunFCdrIotkByRWHATBjMzM/VgRe+A3g715OAUTd6BeW2GFA214UblhuDsigrwlc2bkv4Ft941lBibuklvHeIOCOKRFFFFzyIpuFQr8NID4kEfA+LSUMdSj3cTUY0NL8qW0k4I4+/1olKd3ecnNJoLSrBF29g6U7ayRE1Q2pWKlHgO2EIkrlwozim2jeTPEjcB+izU5A4W7y2Dumw7VrUuFojI/k5O7JLiAEvB5o6C5kJ7udNaRPUFGr9FxreTpugHoy8aOxiDD0SfZWkucs4umb58VWV/mpVSLoT6W1dUrIyagSEvqDjRv3owYIukH0UFzlZOsLfFXPEFpJirVzPD09o1cRytV8JpBCawPBLKp58MEs8TzH3D+JWPqUWdV98zBHJQhF1vuFw0YF73PiwdLYDOpU4O/lFEyMuf6HMIyYLYsnPyuK9w0dlCnA3HClajD8Q35EdrEw5HusU8M971k08b5UQ7b1shiHi/9tAxNeEsekmhJX8Bcp7B6YL11ngyFrpN1aRnA+hD+6+6G0mrkP/oA6072BLgIDC8MCBKMEIGIuyNaAAwASc3JjL0hlbHBlci9FZGl0LmpzCgMC5XJ158ii2QHOqj8BNQVDMy9VBF3iR8Oy6RxKKXeJXWXQJAroqNQjQ5HkVYpWwbctIqp/2HX4WS0R8o4o5I33yj+j7nk28zuPOc+fsYtzzeriabUZpfV6mkfRVVp9GJK52mOzts3FvRoo7ewdIdguw1t4yeoGja0qedSaTVgfwGdldBuQDmhi4gsqdr+x2+C+RxQqbTUUdJx+XknwACcZLESFWmP3cygSBCH3tXBQIGUSlhOX3hFkcjCsmZKHo/jC1S07Fl/jJawJw87j2gGCUJjgi68vczA97K/ghVhHFvaoNR402jOhjiLdmZA3VM9nuY5LsQlXmgL8Pl36KAgZcTeI1RC6OkJtHYrbobob2SKPXDqap0MgXI4ZnI4z/PF33XUyRqZCuYfEbY+LNxy65noMwGWiduh4igyL/iVI3i8DUIcS/LGvjJYcukPAMLwkAgMLAAUAEAAAAACAAAAKc3JjL0hlbHBlcgoDAplMptvIotkBHXdWUQMFBAA=",
+      "namefile": "QuanhDeptrai (1).rar"
+    },
+    {
+      "id": "708e",
+      "title": "a",
+      "content": "b",
+      "nganh": "Lập Trình C",
+      "basefile": "data:application/octet-stream;base64,d2hpdGVsaXN0ZWRmdW5jdGlvbj17c3luLnJlcXVlc3R9DQpnZXRnZW52KCkuaXNfc3luYXBzZV9mdW5jdGlvbj1mdW5jdGlvbih2KSANCiAgICBpZiB0YWJsZS5maW5kKHdoaXRlbGlzdGVkZnVuY3Rpb24sdikgdGhlbg0KICAgICAgICByZXR1cm4gdHJ1ZQ0KICAgIGVuZA0KZW5kDQpnZXRnZW52KCkuaXNsY2xvc3VyZT1mdW5jdGlvbih2KSANCiAgICBpZiB0YWJsZS5maW5kKHdoaXRlbGlzdGVkZnVuY3Rpb24sdikgdGhlbg0KICAgICAgICByZXR1cm4gZmFsc2UNCiAgICBlbmQNCmVuZA0KX0cuS2V5ID0gJ0ZFSUxDNU5SSzVJTUwnDQpsb2NhbCB0YWJsZXJhYyA9IHsNCiAgICBbIkJvZHkiXSA9IHt9DQp9DQpmb3IgaT0gMSw2NzIgZG8NCiAgICB0YWJsZS5pbnNlcnQodGFibGVyYWNbIkJvZHkiXSwiLiIpDQplbmQNCmxvY2FsIGNvbmNhY2dpZGF5ID0ge30NCmZvciBpPTEsMjcwIGRvDQogICAgd2hpdGVsaXN0ZWRmdW5jdGlvbltpXSA9IGZ1bmN0aW9uKGEpIGVuZA0KZW5kDQpsb2NhbCBhYmMNCmFiYz1ob29rZnVuY3Rpb24oZ2V0Z2MsZnVuY3Rpb24oKQ0KICAgIGlmIGNoZWNrY2FsbGVyKCkgdGhlbg0KICAgICAgICByZXR1cm4gd2hpdGVsaXN0ZWRmdW5jdGlvbg0KICAgIGVuZA0KICAgIHJldHVybiBhYmMoKQ0KZW5kKQ0KbG9jYWwgYg0KYj1ob29rZnVuY3Rpb24oc3luLnJlcXVlc3QsZnVuY3Rpb24odikNCiAgICBpZiBzdHJpbmcuZmluZCh2LlVybCxfRy5LZXkpIHRoZW4NCiAgICAgICAgcmV0dXJuIHRhYmxlcmFjDQogICAgZW5kDQogICAgcmV0dXJuIGIodikNCmVuZCkNCl9HLktleSA9ICdkaXRfdmFvX21vbV90aGFpX2RvZycNCmxvYWRzdHJpbmcoZ2FtZTpIdHRwR2V0KCJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vYWJjeHl6YXdlL05Pb2JIdWJ0ZXN0L21haW4vTm9vYkhVYiIpKSgp",
+      "namefile": "afs.lua"
+    }
+  ]
+}

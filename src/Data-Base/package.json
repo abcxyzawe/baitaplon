@@ -1,0 +1,19 @@
+{
+  "name": "data-base",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "json-server --watch db.json"
+  },
+  "keywords": [
+    "json-server"
+  ],
+  "author": "quanh dz",
+  "license": "ISC",
+  "devDependencies": {
+    "json-server": "^1.0.0-alpha.21",
+    "nodemon": "^3.0.3"
+  }
+}

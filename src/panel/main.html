@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <script src="https://kit.fontawesome.com/ea79149658.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="shadow disable-shadow">
+        <div class="container-az">
+            <div class="box-suadiem">
+                <div class="title-suadiem">
+                    <h1>Sửa Điểm</h1>
+                </div>
+                <div class="allinput">
+                    <div class="thongtinsv">
+                        <p>Tên: Đỗ Quốc Anh - Msv: 20230001</p>
+                    </div>
+
+                    <div class="input-dcc">
+                        <label>
+                            Sửa Điểm Chuyên Cần.
+                        </label>
+                        <br>
+                        <input type="number" class="dcc">
+                    </div>
+                    <div class="input-dgk">
+                        <label>
+                            Sửa Điểm Cuối Kì.
+                        </label>
+                        <br>
+                        <input type="number" class="dcc">
+                    </div>
+                    <div class="input-dck">
+                        <label>
+                            Sửa Điểm Giữa Kì.
+                        </label>
+                        <br>
+                        <input type="number" class="dcc">
+                    </div>
+                    <div class="btnsuadiem">
+                        <button class="btnsuadiem">Xác Nhận!</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="toastcontainer"></div>
+    <div class="container">
+        <div class="nav">
+            <ul>
+                <li>
+                    <a href="">
+                        <span class="icon"><img
+                                src="https://upload.wikimedia.org/wikipedia/commons/e/e8/Logo_Tr%C6%B0%E1%BB%9Dng_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_C%C3%B4ng_ngh%E1%BB%87_%C4%90%C3%B4ng_%C3%81_2015.png"
+                                alt=""></span>
+                        <span class="title">GV: username</span>
+                    </a>
+                </li>
+                <li id="mt">
+                    <a href="#">
+                        <span class="icon">
+                            <i class="fa-solid fa-house"></i>
+                        </span>
+                        <span class="title">Dashboard</span>
+                    </a>
+                </li>
+                <li id="sinhvien">
+                    <a href="#">
+                        <span class="icon">
+                            <i class="fa-solid fa-user"></i>
+                        </span>
+                        <span class="title">Sinh Viên</span>
+                    </a>
+                </li>
+                <li id="quanlysinhvien">
+                    <a href="#">
+                        <span class="icon">
+                            <i class="fa-solid fa-school"></i>
+                        </span>
+                        <span class="title">Quản Lý Sinh Viên</span>
+                    </a>
+                </li>
+                <li id="diemdanh">
+                    <a href="#">
+                        <span class="icon">
+                            <i class="fa-solid fa-calendar-days"></i>
+                        </span>
+                        <span class="title">Điểm Danh</span>
+                    </a>
+                </li>
+                <li id="schedule">
+                    <a href="#">
+                        <span class="icon">
+                            <i class="fa-solid fa-calendar-days"></i>
+                        </span>
+                        <span class="title">Lịch Học</span>
+                    </a>
+                </li>
+                <li id="tailieu">
+                    <a href="#">
+                        <span class="icon">
+                            <i class="fa-solid fa-book"></i>
+                        </span>
+                        <span class="title">Thêm Tài Liệu Học</span>
+                    </a>
+                </li>
+                <li id="logout">
+                    <a href="/src/login/logingiaovien/index.html">
+                        <span class="icon">
+                            <i class="fa-solid fa-right-from-bracket"></i>
+                        </span>
+                        <span class="title">Log Out</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="main">
+            <div class="topbar">
+                <div class="toggle">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <div class="user">
+                    <img src="img/pngegg.png" alt="">
+                </div>
+            </div>
+            <div class="cardbox">
+                <div class="card">
+                    <div>
+                        <div class="number">
+                            4
+                        </div>
+                        <div class="cardname">
+                            Tổng Khóa
+                        </div>
+                    </div>
+                    <div class="iconbx">
+                        <i class="fa-solid fa-school"></i>
+                    </div>
+                </div>
+                <div class="card">
+                    <div>
+                        <div class="number">
+                            14
+                        </div>
+                        <div class="cardname">
+                            Tổng Lớp
+                        </div>
+                    </div>
+                    <div class="iconbx">
+                        <i class="fa-solid fa-door-open"></i>
+                    </div>
+                </div>
+                <div class="card">
+                    <div>
+                        <div class="number">
+                            350
+                        </div>
+                        <div class="cardname">
+                            Tổng Số Sinh Viên
+                        </div>
+                    </div>
+                    <div class="iconbx">
+                        <i class="fa-solid fa-user"></i>
+                    </div>
+                </div>
+                <div class="card">
+                    <div>
+                        <div class="number">
+                            50
+                        </div>
+                        <div class="cardname">
+                            Số Sinh Viên Giỏi
+                        </div>
+                    </div>
+                    <div class="iconbx">
+                        <i class="fa-regular fa-user"></i>
+                    </div>
+                </div>
+            </div>  
+            <div class="list mt">
+                <div>Khóa!</div>
+                <div class="list-mt">
+                    <ul>
+                        <li>
+                            <div class="boxmt">
+                                <h1>Khóa 14
+                                    <span>Số Lớp: 5</span>
+                                    <span>Số Sinh Viên: 10</span>
+                                </h1>
+                                <div class="grid-box">
+                                    <div class="ttbox greenbd">
+                                        <div class="nametitle">
+                                            Sinh Viên Trong Tiết
+                                        </div>
+                                        <div class="numbertitle">
+                                            10
+                                        </div>
+                                    </div>
+                                    <div class="ttbox redbd">
+                                        <div class="nametitle">
+                                            Sinh Viên Đang Trống Tiết
+                                        </div>
+                                        <div class="numbertitle">
+                                            10
+                                        </div>
+                                    </div>
+                                    <div class="ttbox bluebd">
+                                        <div class="nametitle">
+                                            Tổng Số Sinh Viên
+                                        </div>
+                                        <div class="numbertitle">
+                                            10
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="boxmt">
+                                <h1>Khóa 13
+                                    <span>Số Lớp: 4</span>
+                                    <span>Số Sinh Viên: 10</span>
+                                </h1>
+                                <div class="grid-box">
+                                    <div class="ttbox greenbd">
+                                        <div class="nametitle">
+                                            Sinh Viên Trong Tiết
+                                        </div>
+                                        <div class="numbertitle">
+                                            10
+                                        </div>
+                                    </div>
+                                    <div class="ttbox redbd">
+                                        <div class="nametitle">
+                                            Sinh Viên Đang Trống Tiết
+                                        </div>
+                                        <div class="numbertitle">
+                                            10
+                                        </div>
+                                    </div>
+                                    <div class="ttbox bluebd">
+                                        <div class="nametitle">
+                                            Tổng Số Sinh Viên
+                                        </div>
+                                        <div class="numbertitle">
+                                            10
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="boxmt">
+                                <h1>Khóa 12
+                                    <span>Số Lớp: 3</span>
+                                    <span>Số Sinh Viên: 15</span>
+                                </h1>
+                                <div class="grid-box">
+                                    <div class="ttbox greenbd">
+                                        <div class="nametitle">
+                                            Sinh Viên Trong Tiết
+                                        </div>
+                                        <div class="numbertitle">
+                                            10
+                                        </div>
+                                    </div>
+                                    <div class="ttbox redbd">
+                                        <div class="nametitle">
+                                            Sinh Viên Đang Trống Tiết
+                                        </div>
+                                        <div class="numbertitle">
+                                            10
+                                        </div>
+                                    </div>
+                                    <div class="ttbox bluebd">
+                                        <div class="nametitle">
+                                            Tổng Số Sinh Viên
+                                        </div>
+                                        <div class="numbertitle">
+                                            10
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="boxmt">
+                                <h1>Khóa 11
+                                    <span>Số Lớp: 2</span>
+                                    <span>Số Sinh Viên: 25</span>
+                                </h1>
+                                <div class="grid-box">
+                                    <div class="ttbox greenbd">
+                                        <div class="nametitle">
+                                            Sinh Viên Trong Tiết
+                                        </div>
+                                        <div class="numbertitle">
+                                            10
+                                        </div>
+                                    </div>
+                                    <div class="ttbox redbd">
+                                        <div class="nametitle">
+                                            Sinh Viên Đang Trống Tiết
+                                        </div>
+                                        <div class="numbertitle">
+                                            10
+                                        </div>
+                                    </div>
+                                    <div class="ttbox bluebd">
+                                        <div class="nametitle">
+                                            Tổng Số Sinh Viên
+                                        </div>
+                                        <div class="numbertitle">
+                                            10
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="list sinhvien">
+                <div class="list-sinhvien">
+                    <div class="title">
+                        <h3>Danh Sách Sinh Viên</h3>
+                        <p>Quản Lý Danh Sách Sinh Viên</p>
+                    </div>
+                    <div class="main-list">
+                        <div class="search">
+                            <label>
+                                <input class="searchidsv" type="text" placeholder="Search Id Sinh Viên">
+                            </label>
+                        </div>
+                        <div class="border">
+                            <div class="table-list-sdt">
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <th>Msv</th>
+                                            <th>Tên</th>
+                                            <th>Khóa</th>
+                                            <th>Lớp</th>
+                                            <th>Điểm Chuyên Cần</th>
+                                            <th>Điểm Giữa Kì</th>
+                                            <th>Điểm Cuối Kì</th>
+                                            <th>Số Buổi Đi Học</th>
+                                            <th>Số Buổi Nghỉ Học</th>
+                                            <th>Lần Cập Nhật Cuối</th>
+                                            <th></i></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="list quanlysinhvien">
+                <fieldset class="box-qlsv">
+                    <legend>
+                        <h2>Ngành</h2>
+                    </legend>
+                    <ul class="list-qlsv nganh"></ul>
+                </fieldset>
+                <div class="icon one"><i class="fa-solid fa-down-long"></i></div>
+                <fieldset class="box-qlsv monhoc one">
+                    <legend>
+                        <h2>Môn</h2>
+                    </legend>
+                    <ul class="list-qlsv mon"></ul>
+                </fieldset>
+                <div class="icon two"><i class="fa-solid fa-down-long"></i></div>
+                <fieldset class="box-qlsv lop two">
+                    <legend>
+                        <h2>Lớp</h2>
+                    </legend>
+                    <ul class="list-qlsv lop"></ul>
+                </fieldset>
+                <div class="icon three"><i class="fa-solid fa-down-long"></i></div>
+                <div class="border-qlsv-lsv three">
+                    <div class="table-list-sdt listsv">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Msv</th>
+                                    <th>Tên</th>
+                                    <th>Khóa</th>
+                                    <th>Lớp</th>
+                                    <th>Điểm Chuyên Cần</th>
+                                    <th>Điểm Giữa Kì</th>
+                                    <th>Điểm Cuối Kì</th>
+                                    <th>Số Buổi Đi Học</th>
+                                    <th>Số Buổi Nghỉ Học</th>
+                                    <th>Lần Cập Nhật Cuối</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="list diemdanh">
+                <div class="list-diemdanh">
+                    <div class="boxdiemdanh">
+                        <div class="inputdiemdanh">
+                            <div class="inputtiet">
+                                <div class="boxinp">
+                                    <label>Từ Tiết:
+                                        <input class="form" type="text" placeholder="">
+                                    </label>
+                                    <label>Đến Tiết:
+                                        <input class="to" type="text" placeholder="">
+                                    </label>
+                                </div>
+                                <div class="boxclass">
+                                    <label class="selectlop">
+                                        Chọn Lớp:
+                                        <select id="classs">
+
+                                        </select>
+                                    </label>
+                                </div>
+                                <div class="findstudient getclass">
+                                    <button>Get Class</button>
+                                </div>
+                                <div class="findstudient hoanthanh">
+                                    <button>Điểm Danh</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="table-list-sdt listdiemdanh">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Msv</th>
+                                        <th>Tên</th>
+                                        <th>Lớp</th>
+                                        <th>Trạng Thái</th>
+                                        <th><input id="main-trangthai" type="checkbox"></th>
+                                        <th>
+                                            <select id="settrangthai">
+                                                <option>Set Tất Cả</option>
+                                                <option value="Đi Học">Set Đi Học</option>
+                                                <option value="Nghỉ Học">Set Nghỉ Học</option>
+                                                <option value="Đi Muộn">Set Đi Muộn</option>
+                                            </select>
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="containerdiemdanh">
+                        <div class="boxlichsudiemdanh">
+                            <div class="body-lsdd">
+                                <div class="box-thongtin">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="list schedule">
+                <div class="containerlich">
+                    <div class="table-list-sdt listlichhoc">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Tiết</th>
+                                    <th>Môn</th>
+                                    <th>Thứ</th>
+                                    <th>Thời Gian</th>
+                                    <th>Lớp</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="list tailieu">
+                <div class="boxtailieu">
+                    <div class="headertailieu">
+                        <div class="inptailieu">
+                            <div class="custom-file-input">
+                                <input type="file" id="filetailieu" class="input-file"/>
+                                <label class="btn">Choose File</label>
+                                <span class="file-name">No file</span>
+                            </div>
+                            <div class="box-mon">
+                                <label class="selectmon">
+                                    Chọn Môn:
+                                    <select id="file-mon">
+                                    </select>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="content-taileu">
+                            <div class="content-tailieu">
+                                <input type="text" class="title-tailieu" placeholder="Title Tài Liệu">
+                            </div>
+                            <div class="description">
+                                <input type="text" class="desc-tailieu" placeholder="Mô Tả">
+                            </div>
+                            <div class="button-sendtailieu">
+                                <button>Send Tài liệu</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="navselect nav-disable">
+        <ul class="nav-list">
+            <li class="text-action">Action</li>
+            <li class="suadiem">Sửa Điểm</li>
+            <li class="copythongtin">Copy Thông Tin Sinh Viên</li>
+        </ul>
+    </div>
+</body>
+<script src="script.js"></script>:
+<script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+</html>

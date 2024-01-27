@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+const getallinput = document.querySelectorAll('.tt');
+const getbtn = document.querySelector('.button');
+
+getbtn.addEventListener('click', function() {
+    getallinput.forEach(list => {
+        if (list.value == '' || list.value == null) {
+            const getparent = list.parentNode;
+            const getp = getparent.querySelector('.error');
+                const create = document.createElement('p');
+                create.classList.add('error');
+                create.innerText = "Doan nay trong";
+                getparent.appendChild(create);
+
+        } else {
+                getp.remove();
+            }
+        })
+})
+    
+</script>
+
+<body>
+    <div class="container">
+        <div>
+            <input type="text" class="tt">
+        </div>
+        <div>
+            <input type="text" class="tt">
+        </div>
+        <div>
+            <input type="number" class="tt"  id="a">
+        </div>
+        <div>
+            <input type="text" class="tt">
+        </div>
+        <div>
+            <input type="text" class="tt">
+        </div>
+        <div>
+            <input type="text" class="tt">
+        </div>
+        <button class="button">asdsdasdasdaasdasd</button>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>

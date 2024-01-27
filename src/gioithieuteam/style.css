@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    background: linear-gradient(90deg, #9fa5d5, #66B2FF);
+    /* height: 100vw; */
+}
+
+.header {
+    height: 62px;
+    border-radius: 15px;
+    display: flex;
+    width: 100vw;
+    position: fixed;
+    justify-content: center;
+    z-index: 20;
+}
+
+.navmain {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navmain .btn {
+    text-align: center;
+    font-size: 18px;
+    padding: 20px 30px;
+    width: 150px;
+    cursor: pointer;
+    color: #fff;
+    z-index: 2;
+}
+
+.bg-active {
+    position: absolute;
+    left: 20px;
+    background: linear-gradient(90deg, #8a92d1, #57aafd);
+    z-index: 1;
+    width: 110px;
+    height: 40px;
+    border-radius: 15px;
+    transition: .5s;
+}
+
+.content {
+    width: 1000px;
+    margin: 0 auto;
+    line-height: 200px;
+    padding-top: 100px;
+}
+
+.content {
+    color: #fff;
+    font-size: 60px;
+}
+
+.head-team {
+    border: 2px solid #E8F5C8;
+}
+
+.headcontent-team {
+    color: #E8F5C8;
+    text-align: center;
+    font-size: 40px;
+    padding: 40px 0px;
+}
+
+.boxthanhvien {
+    margin: 0 auto;
+    width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 30px;
+}
+
+.img img {
+    width: 100%;
+}
+
+.box {
+    background: linear-gradient(90deg, #9fa5d5, #E8F5C8);
+    height: 620px;
+    transition: 1s;
+    overflow: hidden;
+}
+
+.box .img {
+    display: flex;
+    justify-content: center;
+    height: 350px;
+    border-bottom: 5px solid #9fa5d5;
+}
+
+.seemore {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background: linear-gradient(90deg, #9fa5d5, #E8F5C8);
+    color: #9fa5d5;
+}
+
+.boxthanhvien {
+    padding-bottom: 40px;
+}
+
+.seemore i {
+    rotate: 180deg;
+    font-size: 35px;
+    margin-right: 10px;
+    padding: 5px 0px;
+    cursor: pointer;
+    animation: rotate2 1s ease-in-out 1 forwards;
+    color: #9fa5d5;
+}
+
+.fa-caret-down.active {
+    animation: rotate 1s ease-in-out 1 forwards;
+}
+
+.thongtin {
+    color: #414141;
+    line-height: 30px;
+    text-align: center;
+}
+
+.boxthongtin {
+    height: 0;
+    width: 0;
+}
+
+.disable {
+    height: 395px;
+}
+
+.thongtin {
+    list-style: none;
+}
+
+.mytarget, .contact {
+    margin: 0 auto;
+    width: 1000px;
+    color: white;
+}
+
+.contact {
+    padding-bottom: 50px;
+}
+
+.muctieuchung p {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.box:hover {
+    box-shadow: 0 20px 22px rgba(0, 0, 0, 0.1);
+}
+
+.box-muctieu {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 30px;
+    position: relative;
+}
+
+.boximg {
+    width: 50%;
+}
+
+.boximg img {
+    height: 300px;
+}
+
+.boxmuctieu {
+    text-align: center;
+}
+
+input[type=text], select, textarea,input[type=email] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+  
+input[type=submit] {
+    background: linear-gradient(90deg, #9fa5d5, #66B2FF);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+input[type=submit]:hover {
+    background: linear-gradient(90deg, #9fa5d5, #E8F5C8);
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0);
+    }
+
+    to {
+        transform: rotate(180deg);
+    }
+}
+
+@keyframes rotate2 {
+    from {
+        transform: rotate(180deg);
+    }
+
+    to {
+        transform: rotate(0);
+    }
+}
